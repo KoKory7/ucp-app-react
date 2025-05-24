@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/GustavoOspinaL/ucp-app-react.git'
+                git branch: 'main', url: 'https://github.com/KoKory7/ucp-app-react.git'
             }
         }
 
